@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나무 - 인터넷 위키</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <header>
+        <p>◎ 인터넷 위키</p>
+        <a href="#">홈</a>
+        <a onclick="loginLogout()" id="loginLogoutButton">로그인</a>
+        <a onclick="register()" id="register">회원가입</a>
+        <a onclick="edit()">편집</a>
+        <input type="text" id="searchInput" placeholder="검색어 입력" />
+        <button onclick="search()">검색</button>
+    </header>
+    
+    <nav>
+        <h4 id="toc">목차</h4>
+        <ol>
+            <li><a href="#outline">개요</a></li>
+            <li><a href="#kind">종류</a></li>
+            <li><a href="#class">모양에 따른 분류</a></li>
+            <li><a href="#shape">형태</a></li>
+            <li><a href="#source">출처</a></li>
+        </ol>
+    </nav>
+
+    <section>
+        <div>
+            <img src="sonamu.jpeg" width="250" alt="소나무" />
+            <p>소나무 사진</p>
+        </div>
+        <h1>나무</h1>
+        <h3 id="outline"><a href="#toc">1. </a>개요</h3>
+        <hr />
+        <p>
+            나무(樹)는 뿌리, 잎, 열매, 나무질로 된 줄기 등으로 구성된 여러해살이 식물이다.
+            주로 우리가 숨을 쉴 수 있는 산소를 내보내고, 이산화탄소를 빨아들인다.
+            또한 사람에게 이로운 피톤치드 성분을 내보낸다.
+            이 피톤치드 성분은 자신을 벌레 등으로부터 지키려고 내보내는 보호를 위한 성분이다.
+            나무는 보통 개체를 지탱하는 하나의 줄기를 나타내거나, 또는 줄기 가지가 잔가지들을 지탱하는 목질의 식물이다.
+            일부 학자들은 다 자랐을 때 최소 높이가 3미터에서 6미터 정도가 되고 줄기의 반지름이 10cm, 둘레가 30cm가 되어야 한다고 정의한다.
+            이러한 정의를 만족하지 못하는 줄기가 여러 개이거나 작은 크기의 목질 식물은 관목이라고 한다.
+            나무는 다른 식물들과 비교하여 수명이 길어, 어떤 나무는 몇 천년까지 살고 그 키도 115미터에 이르는 경우도 있다.
+        </p>
+        <br>
+
+        <h3 id="kind"><a href="#toc">2. </a>종류</h3>
+        <hr />
+        <p>
+            나무의 종류를 나누는 기준으로는 잎의 모양에 따라 나누는 방법, 쓰임새에 따라 나누는 방법, 분류학적인 방법에 따라 나누는 방법 등이 쓰인다.
+            나무를 침엽수와 활엽수로 나누는 것은 잎의 모양에 따라 나무를 구분하는 방법에 따른 것이다.
+        </p>
+
+        <h3 id="class"><a href="#toc">3. </a>모양에 따른 분류</h3>
+        <hr />
+        <p>
+            나무의 키와 모양에 따라서 다음과 같이 분류를 하기도 한다.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>종류</th>
+                    <th>설명</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>교목(큰키나무)</td>
+                    <td>일반적으로 원줄기가 하나로 굵게 자라며 키가 4m이상 자라는 나무. 소나무, 느티나무, 은행나무 등</td>
+                </tr>
+                <tr>
+                    <td>관목(작은키나무)</td>
+                    <td>줄기가 지면에서 여러 개로 갈라지며 가늘고 키가 일반적으로 4m보다 작은나무. 개나리, 진달래, 철쭉, 회양목 등</td>
+                </tr>
+                <tr>
+                    <td>침엽수(바늘잎나무)</td>
+                    <td>대부분 잎이 바늘 모양(주로 겉씨식물). 소나무, 잣나무, 전나무, 낙엽송(일본잎갈나무), 은행나무 등</td>
+                </tr>
+                <tr>
+                    <td>활엽수(넓은잎나무)</td>
+                    <td>일반적으로 원줄기가 하나로 굵게 자라며 키가 4m이상 자라는 나무. 소나무, 느티나무, 은행나무 등</td>
+                </tr>
+                <tr>
+                    <td>교목(큰키나무)</td>
+                    <td>잎이 넓은 나무(주로 속씨식물). 느티나무, 상수리나무, 벚나무 등</td>
+                </tr>
+                <tr>
+                    <td>상록수(늘푸른나무)</td>
+                    <td>항상 푸른 잎. 소나무, 곰솔(해송), 전나무, 잣나무, 가문비나무, 동백나무 등</td>
+                </tr>
+                <tr>
+                    <td>낙엽수(갈잎나무)</td>
+                    <td>가을과 겨울 사이 대부분 잎이 떨어짐. 낙엽송, 버드나무, 단풍나무 등</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <h3 id="shape"><a href="#toc">4. </a>형태</h3>
+        <hr />
+        <p>
+            나무의 기본적인 부위는 뿌리, 줄기, 가지, 수피, 잎이다.<br>나무의 종류마다 줄기와 가지가 자라는 방식 및 잎의 크기와 모양이 다르기 때문에 나무의 전체적인 외형은 매우 다양하다.
+        </p>
+        <br>
+
+        <h3 id="source"><a href="#toc">5. </a>출처</h3>
+        <hr />
+        <p id="bottom">
+            <a href="https://ko.wikipedia.org/wiki/%EB%82%98%EB%AC%B4" target="_blank">한국어 위키백과</a> - 디자인 참고 및 본문 출처
+            <br>
+            <a href="https://namu.wiki/w/%EB%82%98%EB%AC%B4" target="_blank">나무위키</a> - 디자인 참고
+        </p>
+    </section>
+    <footer>
+        이 저작물은 무슨 라이선스에 따라 이용할 수 있습니다.
+    </footer>
+</body>
+</html>

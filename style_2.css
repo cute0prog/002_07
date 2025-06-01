@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'NEXON Lv2 Gothic';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: 'NEXON Lv2 Gothic', sans-serif;
+    color: midnightblue;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid midnightblue;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    font-size: small;
+}
